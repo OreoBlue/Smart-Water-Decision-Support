@@ -339,9 +339,9 @@ python train.py path/to/monthly_combined_dataset.csv
 
 ## Link Project
 
-- **Repository:** [ISI LINK REPOSITORY]
-- **Prototype / Deployment:** [ISI LINK PROTOTYPE]
-- **Video Demo:** [ISI LINK VIDEO DEMO]
+- **Repository:** [https://github.com/OreoBlue/Smart-Water-Decision-Support]
+- **Prototype / Deployment:** [https://smart-water-decision-support-jahebakar.streamlit.app/]
+- **Video Demo:** [https://drive.google.com/file/d/1xsJonJGJRxFwLMfvTkoRIvAL5k569gLG/view?usp=drivesdk]
 
 ---
 
