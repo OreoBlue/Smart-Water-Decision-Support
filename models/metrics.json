@@ -1,0 +1,63 @@
+{
+  "demand_forecast": {
+    "target": "Residential GPCD (demand), not physical water availability",
+    "n_test": 90189,
+    "mape_model_%": 12.680640643168356,
+    "mape_seasonal_naive_%": 13.728832412269773,
+    "h1": {
+      "model_%": 11.862049344944383,
+      "naive_%": 13.755808721307814
+    },
+    "h3": {
+      "model_%": 12.48959387643855,
+      "naive_%": 13.751038732619438
+    },
+    "h6": {
+      "model_%": 12.488008251619885,
+      "naive_%": 13.651890835467007
+    },
+    "h12": {
+      "model_%": 13.469576663903801,
+      "naive_%": 13.78600626795424
+    },
+    "interval_80_test_coverage": 0.8491612059120291
+  },
+  "administrative_risk_classification": {
+    "label": "DWR declared shortage stage grouped to 3 classes",
+    "n_test": 7024,
+    "acc": 0.783883826879271,
+    "macro_f1": 0.7348894002427674,
+    "high_risk_recall": 0.8842105263157894,
+    "majority_acc": 0.7058656036446469,
+    "warning": "Administrative label; use as secondary signal, not proof of physical stock availability."
+  },
+  "label_persistence_audit": {
+    "h1": {
+      "n": 6984,
+      "carry_forward_acc": 0.9987113402061856
+    },
+    "h3": {
+      "n": 6976,
+      "carry_forward_acc": 0.9964162844036697
+    },
+    "h6": {
+      "n": 6974,
+      "carry_forward_acc": 0.9935474620017207
+    },
+    "h12": {
+      "n": 6943,
+      "carry_forward_acc": 0.9855970041768688
+    }
+  },
+  "supply_forecast": {
+    "method_selected": "seasonal_naive_12m",
+    "n_test": 7487,
+    "mape_%": 11.909458885478987,
+    "note": "A HistGradientBoosting supply model was benchmarked separately and was worse on the same holdout; the simpler seasonal method is retained."
+  },
+  "pressure_proxy": {
+    "low_watch_q60": 0.6756784790460584,
+    "watch_high_q85": 0.7987681647579636,
+    "definition": "Empirical residential-demand / potable-supply pressure bands; not regulatory thresholds."
+  }
+}
