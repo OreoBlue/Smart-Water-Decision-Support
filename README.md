@@ -65,9 +65,9 @@ Pressure = Forecast Residential Demand / Forecast Potable Supply
 
 Nilai pressure kemudian dipetakan ke tiga status:
 
-- **Low**
-- **Watch**
-- **High**
+- **Rendah**
+- **Waspada**
+- **Tinggi**
 
 Threshold dibentuk dari distribusi empiris historis menggunakan kuantil, bukan dari ambang regulasi resmi.
 
@@ -287,7 +287,8 @@ smart-water-decision-support/
 ├── README.md
 │
 ├── data/
-│   └── processed.csv.gz
+│   ├── processed.csv.gz
+│   └── monthly_combined_dataset.csv
 │
 ├── models/
 │   ├── models.joblib
@@ -295,12 +296,6 @@ smart-water-decision-support/
 │
 ├── experiments/
 │   └── benchmark_notes.md
-│
-├── docs/
-│   ├── DEMO_SCRIPT.md
-│   ├── METHODOLOGY.md
-│   ├── MODEL_CARD.md
-│   └── DATASETS.md
 │
 └── .streamlit/
     └── config.toml
