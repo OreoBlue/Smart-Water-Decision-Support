@@ -2,7 +2,7 @@
 
 Data-science calculations, saved models, metric definitions and existing dashboard
 sections remain unchanged. Added: county-reference map selection, contextual help,
-fixed dark UI, three scenario presets and subtle presentation styling.
+three scenario presets, a plain-language glossary, and subtle dark-mode styling.
 """
 
 import html
@@ -28,23 +28,23 @@ BAND_COL = {"Low": OK, "Watch": WARN, "High": BAD, "n/a": "gray"}
 BAND_ID = {"Low": "Rendah", "Watch": "Waspada", "High": "Tinggi", "n/a": "n/a"}
 
 HELP = {
-    "unit": "Pilih unit layanan air dari daftar ini atau klik salah satu titik di peta. Peta memakai referensi centroid county, bukan koordinat fasilitas supplier.",
-    "map": "Titik mewakili unit layanan menggunakan pusat county yang tercatat pada dataset. Beberapa supplier dapat berada pada titik yang sama. Perbesar dan klik cluster untuk memisahkan penanda, lalu klik satu titik untuk memilih supplier.",
-    "on": "Aktifkan untuk menambahkan estimasi kebutuhan air data center pada baseline residensial.",
-    "mw": "Beban IT (MW) adalah kapasitas daya perangkat komputasi. Semakin besar daya aktif, semakin besar kebutuhan energi pendinginan dalam skenario.",
-    "util": "Utilisasi rata-rata menyatakan bagian kapasitas IT yang aktif: 0,30 berarti 30%, sedangkan 1,00 berarti 100%.",
-    "temp": "Suhu udara digunakan bersama kelembapan untuk menghitung wet-bulb temperature yang memengaruhi asumsi kebutuhan air pendinginan.",
-    "rh": "Kelembapan relatif udara (%) membantu menghitung wet-bulb temperature sebagai input model penggunaan air pendinginan.",
-    "mode": "Dua pendekatan empiris yang berbeda untuk menghubungkan kondisi wet-bulb dengan WUE. Keduanya bukan kalibrasi fasilitas data center tertentu.",
-    "lam": "Pengali asumsi efisiensi WUE: < 1 lebih hemat air; = 1 acuan; > 1 lebih boros. Parameter skenario, bukan hasil kalibrasi lokal.",
-    "preset": "Tiga contoh asumsi operasi data center untuk perbandingan what-if; bukan kelas baku industri dan bukan kategori risiko air. Sesudah memilih preset, setiap slider dapat diatur sendiri.",
-    "demand": "MAPE pada periode uji 2025+: rata-rata kesalahan persentase absolut prakiraan demand residensial. MAPE lebih kecil berarti error rata-rata lebih rendah.",
-    "supply": "MAPE evaluasi metode seasonal-naive untuk benchmark potable supply per kapita per hari. Metode musiman dipilih karena mengungguli supply boosting yang diuji.",
-    "coverage": "Dari seluruh observasi uji, persentase nilai aktual yang termasuk dalam interval prakiraan nominal 80%. Cakupan empiris dapat berbeda dari angka nominal.",
-    "water": "Estimasi air langsung di lokasi data center dari MW × utilisasi × 24 jam × WUE. Tampilan bulanan memakai asumsi 30 hari. Jejak air listrik tidak dihitung.",
-    "forecast_chart": "Garis abu-abu adalah histori 36 bulan; biru adalah prakiraan 12 bulan; merah putus-putus adalah skenario saat aktif. Pita biru menunjukkan interval prediksi 80%.",
-    "pressure_chart": "Pressure proxy = prakiraan residential GPCD ÷ benchmark potable supply PCD. Kategori Rendah/Waspada/Tinggi menggunakan Q60/Q85 historis; bukan indeks stres air atau ambang regulasi.",
-    "table": "Tabel lengkap per bulan: prakiraan demand, interval 80%, benchmark pasokan, pressure, kategori empiris, sinyal administratif DWR, dan perbandingan skenario.",
+    "unit": "Pilih penyedia layanan air dari daftar atau klik titik pada peta. Titik menunjukkan pusat wilayah county, bukan lokasi bangunan penyedia air.",
+    "map": "Peta membantu memilih unit layanan. Klik lingkaran bernomor untuk memperbesar kumpulan titik, lalu klik titik biru untuk memilih unit. Lokasi titik hanya perkiraan berdasarkan county.",
+    "on": "Nyalakan untuk melihat perkiraan tambahan kebutuhan air jika ada data center di wilayah layanan ini.",
+    "mw": "Besarnya daya komputer di data center. Angka lebih besar biasanya membutuhkan lebih banyak air untuk pendinginan.",
+    "util": "Persentase penggunaan kapasitas komputer. Nilai 0,65 berarti rata-rata 65 persen kapasitas digunakan.",
+    "temp": "Suhu udara di sekitar data center. Suhu membantu memperkirakan kebutuhan air untuk pendinginan.",
+    "rh": "Menunjukkan seberapa lembap udara. Nilainya dipakai bersama suhu untuk memperkirakan kebutuhan air pendinginan.",
+    "mode": "Pilih cara kerja pendinginan yang ingin disimulasikan. Setiap pilihan menggunakan perkiraan pemakaian air yang berbeda.",
+    "lam": "Atur tingkat hemat air. Di bawah 1 berarti lebih hemat, 1 berarti kondisi acuan, dan di atas 1 berarti lebih boros.",
+    "preset": "Pilih Low untuk skenario ringan, Medium untuk menengah, atau High untuk berat. Nilai tiap pengaturan tetap bisa diubah setelah preset dipilih.",
+    "demand": "Menunjukkan rata-rata persentase kesalahan prediksi kebutuhan air pada data pengujian. Semakin kecil angkanya, semakin baik.",
+    "supply": "Menunjukkan rata-rata persentase kesalahan perkiraan pasokan air. Perkiraannya mengikuti pola bulan yang sama tahun sebelumnya.",
+    "coverage": "Menunjukkan seberapa sering angka pemakaian air sebenarnya masuk ke dalam rentang prediksi. Target rentangnya adalah 80 persen.",
+    "water": "Perkiraan air yang dipakai langsung untuk pendinginan data center per bulan. Angka berubah mengikuti pengaturan di panel kiri.",
+    "forecast_chart": "Garis abu-abu menunjukkan data masa lalu, biru menunjukkan prediksi, dan merah menunjukkan hasil skenario. Pita biru menunjukkan rentang kemungkinan hasil.",
+    "pressure_chart": "Membandingkan perkiraan kebutuhan air dengan pasokan. Semakin tinggi garisnya, semakin besar tekanan relatif. Batas warna berasal dari data historis, bukan aturan pemerintah.",
+    "table": "Lihat angka prediksi air untuk setiap bulan, perkiraan pasokan, tingkat tekanan, status, dan perubahan setelah skenario diterapkan.",
 }
 
 PRESETS = {
@@ -101,16 +101,18 @@ def reset_scenario():
 
 if "selected_preset" not in st.session_state:
     st.session_state["selected_preset"] = "Medium"
-# Only set initial values if absent, not on every re-run (preserves manually adjusted sliders).
+# Initial widget values are only set once, preserving user adjustments on reruns.
 for short, widget_key in WIDGET_KEYS.items():
     st.session_state.setdefault(widget_key, PRESETS["Medium"][short])
 st.session_state.setdefault("scenario_enabled", True)
 
-
-# Fixed dark palette: no theme switch or light-mode dependency.
-P = {"bg": "#090e19", "sidebar": "#161f31", "panel": "#101a2b", "panel2": "#11233b",
-     "text": "#f0f5ff", "muted": "#a4b0c3", "border": "#263854", "grid": "#33465d"}
-
+# The presentation uses the original permanent dark theme.
+DARK = True
+PALETTE = {
+    "bg": "#090e19", "sidebar": "#161f31", "panel": "#101a2b", "panel2": "#11233b",
+    "text": "#f0f5ff", "muted": "#a4b0c3", "border": "#263854", "grid": "#33465d",
+}
+P = PALETTE
 st.markdown(f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
@@ -152,7 +154,7 @@ h1.t {{ color:var(--sw-text);font-size:25px;font-weight:700;line-height:1.2;marg
 .sw-help:hover::after,.sw-help:focus::after {{ content:attr(data-tip);display:block;position:absolute;z-index:999999;
     bottom:calc(100% + 9px);left:50%;transform:translateX(-50%);width:max-content;max-width:300px;
     min-width:195px;white-space:normal;line-height:1.5;text-align:left;padding:9px 11px;
-    border-radius:9px;background:#edf4ff;color:#132238;
+    border-radius:9px;background:{'#edf4ff' if DARK else '#142842'};color:{'#132238' if DARK else '#ffffff'};
     border:1px solid {P['border']};box-shadow:0 12px 35px #0004;font-size:12px;font-weight:400; }}
 .sidebar-brand {{ padding:5px 0 10px; }}
 .sidebar-brand .brand-name {{ font-size:20px;line-height:1.2;font-weight:700;color:var(--sw-text); }}
@@ -163,6 +165,25 @@ section[data-testid="stSidebar"] .sec {{ color:var(--sw-muted);font-size:11px;le
 .map-caption {{ font-size:12px;color:var(--sw-muted);line-height:1.45;margin:-2px 0 8px; }}
 .map-head {{ display:flex;align-items:center;gap:8px;justify-content:space-between; }}
 .action-note {{ color:var(--sw-muted);font-size:11px;text-align:right; }}
+/* Keep reset control subtle and consistent with the existing blue accent. */
+.st-key-reset_dc_scenario button {{
+    background:rgba(54,153,255,.11) !important;
+    color:#dceaff !important;
+    border:1px solid rgba(54,153,255,.52) !important;
+    border-radius:9px !important;
+    font-size:12px !important;
+    font-weight:600 !important;
+    white-space:nowrap !important;
+}}
+.st-key-reset_dc_scenario button:hover {{
+    background:rgba(54,153,255,.23) !important;
+    border-color:{ACC} !important;
+    color:#ffffff !important;
+}}
+.st-key-reset_dc_scenario button:focus-visible {{
+    outline:2px solid {ACC} !important;
+    outline-offset:2px;
+}}
 [data-testid="stVegaLiteChart"], [data-testid="stDataFrame"] {{ border:1px solid var(--sw-border); border-radius:12px; overflow:hidden; background:var(--sw-panel); }}
 @media(max-width:980px) {{ .grid {{ grid-template-columns:repeat(2,minmax(0,1fr)); }} .m .v {{ font-size:21px; }} }}
 @media(max-width:560px) {{ .grid {{ grid-template-columns:1fr; }} h1.t {{ font-size:21px; }} }}
@@ -266,11 +287,12 @@ dates = pd.to_datetime(dict(year=(f.tt - 1) // 12, month=(f.tt - 1) % 12 + 1, da
 f["date"] = dates.values
 ok_p = np.isfinite(f.pressure_base).any()
 
-# ---------- Reset scenario; the dashboard stays in dark mode ----------
+# ---------- Reset control: original position, improved contrast ----------
 head_space, reset_space = st.columns([9, 1.7], vertical_alignment="center")
 with reset_space:
     st.button("↺ Reset skenario", on_click=reset_scenario, key="reset_dc_scenario",
-              help="Kembalikan seluruh parameter skenario ke preset Medium. Tidak mengubah model atau data.")
+              type="secondary", use_container_width=True,
+              help="Kembalikan semua pengaturan data center ke preset Medium tanpa mengubah data atau model.")
 
 # ---------- Original header ----------
 st.markdown(f'<div class="crumb">Smart Water &nbsp;/&nbsp; Benchmark California &nbsp;/&nbsp; <b>{esc(str(sup["county"][sid]).title())}</b></div>'
@@ -283,11 +305,11 @@ section("Peta unit layanan California", HELP["map"], "◉")
 locations = load_locations()
 locations = locations[locations["sid"].isin(sup.index)]
 if not locations.empty:
-    # The CARTO tiles require a key (Streamlit Secrets); use an OSM fallback if not configured.
-    # Never write the key to source code or to a GitHub commit.
+    # CARTO credentials belong in Streamlit Cloud Secrets, not in this source file.
+    # Fall back gracefully to an open basemap when no credential has been supplied.
     try:
         carto_api_key = st.secrets.get("CARTO_API_KEY", "")
-    except Exception:  # Streamlit may raise its own exception when no secrets file exists.
+    except (FileNotFoundError, KeyError):
         carto_api_key = ""
 
     mapobj = folium.Map(
@@ -299,17 +321,15 @@ if not locations.empty:
     )
     if carto_api_key:
         folium.TileLayer(
-            tiles=(
-                "https://basemaps.cartocdn.com/dark_all/"
-                f"{{z}}/{{x}}/{{y}}.png?key={carto_api_key}"
-            ),
+            tiles=("https://basemaps.cartocdn.com/dark_all/"
+                   f"{{z}}/{{x}}/{{y}}.png?key={carto_api_key}"),
             attr="© OpenStreetMap contributors © CARTO",
-            name="CARTO Dark Matter",
+            name="CARTO Basemap",
             max_zoom=20,
         ).add_to(mapobj)
     else:
-        folium.TileLayer(tiles="OpenStreetMap", name="OpenStreetMap fallback").add_to(mapobj)
-        st.warning("CARTO_API_KEY belum terpasang di Streamlit Secrets. Peta tetap ditampilkan menggunakan OpenStreetMap sebagai cadangan.")
+        folium.TileLayer("OpenStreetMap", name="Peta OpenStreetMap").add_to(mapobj)
+        st.caption("Peta alternatif ditampilkan. Untuk peta CARTO gelap, isi CARTO_API_KEY di Streamlit Secrets.")
 
     marks = MarkerCluster(
         name="Supplier (referensi county)",
@@ -319,7 +339,7 @@ if not locations.empty:
     marks.add_to(mapobj)
     for rec in locations.itertuples(index=False):
         is_selected = rec.sid == sid
-        # IDs are the tooltip text; st_folium returns this on click for sidebar synchronization.
+        # Tooltip shows the supplier ID to synchronize a map click with the existing selectbox.
         folium.CircleMarker(
             location=[float(rec.lat), float(rec.lon)],
             radius=8 if is_selected else 5,
@@ -335,9 +355,11 @@ if not locations.empty:
                 max_width=260,
             ),
         ).add_to(marks)
+
     map_result = st_folium(
         mapobj, height=315, use_container_width=True,
-        returned_objects=["last_object_clicked_tooltip"], key=f"sw_map_{sid}",
+        returned_objects=["last_object_clicked_tooltip"],
+        key=f"sw_map_{sid}",
     )
     chosen = (map_result or {}).get("last_object_clicked_tooltip")
     if chosen in sup.index and chosen != sid:
@@ -347,7 +369,8 @@ if not locations.empty:
         f'<div class="map-caption">Menampilkan <b>{len(locations)}</b> unit layanan. '
         'Klik cluster untuk memperbesar/memisahkan titik, lalu klik titik untuk memilih unit layanan. '
         '<b>Lokasi merupakan centroid county sebagai referensi visual, bukan koordinat fasilitas.</b> '
-        'Sumber: US Census TIGERweb, ACS26 (2026).</div>', unsafe_allow_html=True,
+        'Sumber: US Census TIGERweb, ACS26 (2026).</div>',
+        unsafe_allow_html=True,
     )
 else:
     st.info("File lokasi supplier tidak ditemukan. Tambahkan data/supplier_locations.csv untuk mengaktifkan peta.")
@@ -385,7 +408,7 @@ else:
     txt = "Data sisi pasokan tidak tersedia untuk pemasok ini, sehingga indikator tekanan tidak dapat dihitung andal."
 st.markdown(f'<div class="exec"><div class="h">Ringkasan</div>{txt}</div>', unsafe_allow_html=True)
 
-# ---------- Original demand chart (same series and forecast interval), plus contextual help and fixed dark styling ----------
+# ---------- Original demand chart (same series and forecast interval), plus help and theme polish ----------
 section("Prakiraan kebutuhan air residensial (GPCD)", HELP["forecast_chart"], "⌁")
 hist = h.tail(36)[["date", "gpcd"]].rename(columns={"gpcd": "v"}).assign(s="Histori")
 fc = f[["date", "pred"]].rename(columns={"pred": "v"}).assign(s="Prakiraan")
@@ -447,6 +470,33 @@ if on:
     st.caption("*Sinyal DWR bersifat administratif dan hanya indikatif terhadap skenario.")
 st.download_button("⬇ Unduh CSV", T.to_csv(index=False).encode(),
                    file_name=f"forecast_{sid}.csv", mime="text/csv")
+
+# ---------- Plain-language glossary for dashboard terms ----------
+with st.expander("📖 Penjelasan istilah pada dashboard"):
+    st.markdown("""
+Istilah berikut membantu membaca angka dan grafik tanpa harus memahami pemrograman atau data mining.
+
+- **MAPE:** Rata-rata persentase selisih antara prediksi dan angka sebenarnya. Semakin kecil, semakin baik.
+- **Demand:** Banyaknya air yang dibutuhkan atau digunakan.
+- **Supply:** Banyaknya air yang disediakan oleh layanan air.
+- **Forecast atau prakiraan:** Perkiraan angka pada bulan-bulan mendatang berdasarkan pola data masa lalu.
+- **Baseline:** Kondisi acuan sebelum penambahan kebutuhan air dari data center.
+- **Skenario:** Simulasi perubahan kebutuhan air ketika kondisi data center diubah.
+- **GPCD:** Galon air yang digunakan oleh satu orang dalam satu hari. Untuk dashboard ini, demand dihitung pada penggunaan air rumah tangga.
+- **PCD:** Galon air per orang per hari. Pada kolom pasokan, satuan ini dipakai untuk membandingkan ketersediaan layanan dengan kebutuhan.
+- **Horizon 12 bulan:** Rentang waktu yang diprediksi, yaitu 12 bulan setelah data terakhir.
+- **Interval prediksi 80%:** Rentang nilai kemungkinan hasil prediksi. Dalam pengujian, targetnya sekitar 80 dari setiap 100 hasil nyata masuk ke rentang tersebut.
+- **Cakupan interval:** Persentase hasil nyata yang benar-benar masuk ke rentang prediksi saat diuji.
+- **Tekanan atau pressure:** Perbandingan kebutuhan air rumah tangga dengan pasokan air. Nilai lebih tinggi berarti tekanan relatif lebih besar, bukan berarti air pasti habis.
+- **Rendah, Waspada, Tinggi:** Kategori tekanan berdasarkan pola data historis, bukan keputusan resmi pemerintah.
+- **Q60 dan Q85:** Batas statistik dari data masa lalu yang dipakai untuk membedakan kategori tekanan.
+- **DWR:** Sinyal status administratif kekurangan air dari data California. Bukan ukuran langsung banyaknya air di waduk.
+- **MW:** Satuan daya komputer yang digunakan untuk menggambarkan besarnya data center.
+- **Utilisasi:** Persentase kapasitas komputer yang aktif.
+- **WUE:** Ukuran banyaknya air pendinginan yang dipakai dibandingkan energi komputer.
+- **Pengali efisiensi pendinginan:** Angka untuk mencoba kondisi lebih hemat atau lebih boros air.
+- **Seasonal-naive:** Metode sederhana yang memperkirakan kondisi bulan mendatang berdasarkan bulan yang sama pada tahun sebelumnya.
+""")
 
 # ---------- Original model card and limitations (preserved) ----------
 with st.expander("Model card & keterbatasan"):
