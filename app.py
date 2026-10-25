@@ -2,7 +2,7 @@
 
 Data-science calculations, saved models, metric definitions and existing dashboard
 sections remain unchanged. Added: county-reference map selection, contextual help,
-light/dark UI, three scenario presets and subtle presentation styling.
+fixed dark UI, three scenario presets and subtle presentation styling.
 """
 
 import html
@@ -99,8 +99,6 @@ def reset_scenario():
     apply_preset("Medium")
 
 
-if "theme_mode" not in st.session_state:
-    st.session_state["theme_mode"] = "dark"
 if "selected_preset" not in st.session_state:
     st.session_state["selected_preset"] = "Medium"
 # Only set initial values if absent, not on every re-run (preserves manually adjusted sliders).
@@ -109,19 +107,10 @@ for short, widget_key in WIDGET_KEYS.items():
 st.session_state.setdefault("scenario_enabled", True)
 
 
-def flip_theme():
-    st.session_state["theme_mode"] = ("light" if st.session_state["theme_mode"] == "dark" else "dark")
-
-
-DARK = st.session_state["theme_mode"] == "dark"
-PALETTE = (
-    {"bg": "#090e19", "sidebar": "#161f31", "panel": "#101a2b", "panel2": "#11233b",
+# Fixed dark palette: no theme switch or light-mode dependency.
+P = {"bg": "#090e19", "sidebar": "#161f31", "panel": "#101a2b", "panel2": "#11233b",
      "text": "#f0f5ff", "muted": "#a4b0c3", "border": "#263854", "grid": "#33465d"}
-    if DARK else
-    {"bg": "#f3f7fc", "sidebar": "#eaf1fb", "panel": "#ffffff", "panel2": "#eff6ff",
-     "text": "#15263f", "muted": "#596b84", "border": "#d0dded", "grid": "#d8e1ec"}
-)
-P = PALETTE
+
 st.markdown(f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
@@ -163,7 +152,7 @@ h1.t {{ color:var(--sw-text);font-size:25px;font-weight:700;line-height:1.2;marg
 .sw-help:hover::after,.sw-help:focus::after {{ content:attr(data-tip);display:block;position:absolute;z-index:999999;
     bottom:calc(100% + 9px);left:50%;transform:translateX(-50%);width:max-content;max-width:300px;
     min-width:195px;white-space:normal;line-height:1.5;text-align:left;padding:9px 11px;
-    border-radius:9px;background:{'#edf4ff' if DARK else '#142842'};color:{'#132238' if DARK else '#ffffff'};
+    border-radius:9px;background:#edf4ff;color:#132238;
     border:1px solid {P['border']};box-shadow:0 12px 35px #0004;font-size:12px;font-weight:400; }}
 .sidebar-brand {{ padding:5px 0 10px; }}
 .sidebar-brand .brand-name {{ font-size:20px;line-height:1.2;font-weight:700;color:var(--sw-text); }}
@@ -277,14 +266,11 @@ dates = pd.to_datetime(dict(year=(f.tt - 1) // 12, month=(f.tt - 1) % 12 + 1, da
 f["date"] = dates.values
 ok_p = np.isfinite(f.pressure_base).any()
 
-# ---------- Light/dark toggle near Streamlit's existing top-right Share toolbar ----------
-head_space, reset_space, theme_space = st.columns([9, 1.7, 0.8], vertical_alignment="center")
+# ---------- Reset scenario; the dashboard stays in dark mode ----------
+head_space, reset_space = st.columns([9, 1.7], vertical_alignment="center")
 with reset_space:
     st.button("↺ Reset skenario", on_click=reset_scenario, key="reset_dc_scenario",
               help="Kembalikan seluruh parameter skenario ke preset Medium. Tidak mengubah model atau data.")
-with theme_space:
-    st.button("☀️" if DARK else "🌙", key="switch_sw_theme", on_click=flip_theme,
-              help="Aktifkan tema terang" if DARK else "Aktifkan tema gelap")
 
 # ---------- Original header ----------
 st.markdown(f'<div class="crumb">Smart Water &nbsp;/&nbsp; Benchmark California &nbsp;/&nbsp; <b>{esc(str(sup["county"][sid]).title())}</b></div>'
@@ -297,30 +283,39 @@ section("Peta unit layanan California", HELP["map"], "◉")
 locations = load_locations()
 locations = locations[locations["sid"].isin(sup.index)]
 if not locations.empty:
-    CARTO_API_KEY = st.secrets["CARTO_API_KEY"]
+    # The CARTO tiles require a key (Streamlit Secrets); use an OSM fallback if not configured.
+    # Never write the key to source code or to a GitHub commit.
+    try:
+        carto_api_key = st.secrets.get("CARTO_API_KEY", "")
+    except Exception:  # Streamlit may raise its own exception when no secrets file exists.
+        carto_api_key = ""
 
-map_style = "dark_all" if DARK else "light_all"
+    mapobj = folium.Map(
+        location=[36.6, -119.4],
+        zoom_start=6,
+        tiles=None,
+        control_scale=True,
+        prefer_canvas=True,
+    )
+    if carto_api_key:
+        folium.TileLayer(
+            tiles=(
+                "https://basemaps.cartocdn.com/dark_all/"
+                f"{{z}}/{{x}}/{{y}}.png?key={carto_api_key}"
+            ),
+            attr="© OpenStreetMap contributors © CARTO",
+            name="CARTO Dark Matter",
+            max_zoom=20,
+        ).add_to(mapobj)
+    else:
+        folium.TileLayer(tiles="OpenStreetMap", name="OpenStreetMap fallback").add_to(mapobj)
+        st.warning("CARTO_API_KEY belum terpasang di Streamlit Secrets. Peta tetap ditampilkan menggunakan OpenStreetMap sebagai cadangan.")
 
-mapobj = folium.Map(
-    location=[36.6, -119.4],
-    zoom_start=6,
-    tiles=None,
-    control_scale=True,
-    prefer_canvas=True
-)
-
-folium.TileLayer(
-    tiles=(
-        f"https://basemaps.cartocdn.com/{map_style}/"
-        f"{{z}}/{{x}}/{{y}}.png?key={CARTO_API_KEY}"
-    ),
-    attr="© OpenStreetMap contributors © CARTO",
-    name="CARTO Basemap",
-    max_zoom=20
-).add_to(mapobj)
-    marks = MarkerCluster(name="Supplier (referensi county)",
-                          options={"spiderfyOnMaxZoom": True, "showCoverageOnHover": False,
-                                   "zoomToBoundsOnClick": True, "maxClusterRadius": 45})
+    marks = MarkerCluster(
+        name="Supplier (referensi county)",
+        options={"spiderfyOnMaxZoom": True, "showCoverageOnHover": False,
+                 "zoomToBoundsOnClick": True, "maxClusterRadius": 45},
+    )
     marks.add_to(mapobj)
     for rec in locations.itertuples(index=False):
         is_selected = rec.sid == sid
@@ -337,19 +332,23 @@ folium.TileLayer(
             popup=folium.Popup(
                 f'<b>{esc(rec.name)}</b><br>County: {esc(rec.county)}'
                 f'<br>ID: {esc(rec.sid)}<br><small>Titik referensi county (bukan alamat supplier)</small>',
-                max_width=260),
+                max_width=260,
+            ),
         ).add_to(marks)
-    map_result = st_folium(mapobj, height=315, use_container_width=True,
-                           returned_objects=["last_object_clicked_tooltip"],
-                           key=f"sw_map_{sid}_{st.session_state['theme_mode']}")
+    map_result = st_folium(
+        mapobj, height=315, use_container_width=True,
+        returned_objects=["last_object_clicked_tooltip"], key=f"sw_map_{sid}",
+    )
     chosen = (map_result or {}).get("last_object_clicked_tooltip")
     if chosen in sup.index and chosen != sid:
         st.session_state["map_pending_sid"] = chosen
         st.rerun()
-    st.markdown(f'<div class="map-caption">Menampilkan <b>{len(locations)}</b> unit layanan. '
-                'Klik cluster untuk memperbesar/memisahkan titik, lalu klik titik untuk memilih unit layanan. '
-                '<b>Lokasi merupakan centroid county sebagai referensi visual, bukan koordinat fasilitas.</b> '
-                'Sumber: US Census TIGERweb, ACS26 (2026).</div>', unsafe_allow_html=True)
+    st.markdown(
+        f'<div class="map-caption">Menampilkan <b>{len(locations)}</b> unit layanan. '
+        'Klik cluster untuk memperbesar/memisahkan titik, lalu klik titik untuk memilih unit layanan. '
+        '<b>Lokasi merupakan centroid county sebagai referensi visual, bukan koordinat fasilitas.</b> '
+        'Sumber: US Census TIGERweb, ACS26 (2026).</div>', unsafe_allow_html=True,
+    )
 else:
     st.info("File lokasi supplier tidak ditemukan. Tambahkan data/supplier_locations.csv untuk mengaktifkan peta.")
 
@@ -386,14 +385,14 @@ else:
     txt = "Data sisi pasokan tidak tersedia untuk pemasok ini, sehingga indikator tekanan tidak dapat dihitung andal."
 st.markdown(f'<div class="exec"><div class="h">Ringkasan</div>{txt}</div>', unsafe_allow_html=True)
 
-# ---------- Original demand chart (same series and forecast interval), plus help and theme polish ----------
+# ---------- Original demand chart (same series and forecast interval), plus contextual help and fixed dark styling ----------
 section("Prakiraan kebutuhan air residensial (GPCD)", HELP["forecast_chart"], "⌁")
 hist = h.tail(36)[["date", "gpcd"]].rename(columns={"gpcd": "v"}).assign(s="Histori")
 fc = f[["date", "pred"]].rename(columns={"pred": "v"}).assign(s="Prakiraan")
 parts = [hist, fc] + ([f[["date", "scenario_demand"]].rename(columns={"scenario_demand": "v"}).assign(s="Skenario")] if on else [])
 L = pd.concat(parts)
 dom = ["Histori", "Prakiraan", "Skenario"][: 3 if on else 2]
-rng = ["#919aa9" if DARK else "#7d899b", ACC, BAD][: len(dom)]
+rng = ["#919aa9", ACC, BAD][: len(dom)]
 x = alt.X("date:T", title=None, axis=alt.Axis(format="%Y-%m", labelOverlap=True))
 band = alt.Chart(f).mark_area(opacity=.15, color=ACC).encode(
     x=x, y=alt.Y("lo:Q", title=None, scale=alt.Scale(zero=False)), y2="hi:Q")
