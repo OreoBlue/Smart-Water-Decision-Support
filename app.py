@@ -185,6 +185,76 @@ section[data-testid="stSidebar"] .sec {{ color:var(--sw-muted);font-size:11px;le
     outline-offset:2px;
 }}
 [data-testid="stVegaLiteChart"], [data-testid="stDataFrame"] {{ border:1px solid var(--sw-border); border-radius:12px; overflow:hidden; background:var(--sw-panel); }}
+
+/* Keep Streamlit-native widgets aligned with the app dark palette.
+   Real dataframe cell colors are controlled by .streamlit/config.toml below;
+   overriding only the HTML wrapper cannot recolor the grid canvas. */
+:root, html, body, .stApp {{ color-scheme:dark; }}
+[data-testid="stExpander"] details,
+[data-testid="stExpander"] details > summary {{
+    background-color:var(--sw-panel) !important;
+    color:var(--sw-text) !important;
+    border-color:var(--sw-border) !important;
+}}
+[data-testid="stExpander"] details {{
+    border:1px solid var(--sw-border) !important;
+    border-radius:10px !important;
+    overflow:hidden;
+}}
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary span,
+[data-testid="stExpander"] summary svg {{
+    color:var(--sw-text) !important;
+    fill:currentColor;
+}}
+[data-testid="stExpander"] details > div {{
+    background-color:var(--sw-panel) !important;
+    color:var(--sw-text) !important;
+}}
+[data-testid="stExpander"] details * {{ border-color:var(--sw-border); }}
+[data-testid="stDataFrame"] {{
+    background-color:var(--sw-panel) !important;
+    border:1px solid var(--sw-border) !important;
+}}
+[data-testid="stDownloadButton"] button {{
+    background-color:var(--sw-panel) !important;
+    color:var(--sw-text) !important;
+    border:1px solid var(--sw-border) !important;
+    border-radius:9px !important;
+    font-weight:600 !important;
+}}
+[data-testid="stDownloadButton"] button:hover {{
+    background-color:var(--sw-panel2) !important;
+    border-color:var(--sw-accent) !important;
+    color:#ffffff !important;
+}}
+/* Preset Low/High are secondary controls; Medium keeps its existing red accent. */
+section[data-testid="stSidebar"] [data-testid="stButton"] button[kind="secondary"] {{
+    background-color:var(--sw-panel) !important;
+    border:1px solid var(--sw-border) !important;
+    color:var(--sw-text) !important;
+    border-radius:9px !important;
+}}
+section[data-testid="stSidebar"] [data-testid="stButton"] button[kind="secondary"]:hover {{
+    background-color:var(--sw-panel2) !important;
+    border-color:var(--sw-accent) !important;
+}}
+section[data-testid="stSidebar"] [data-baseweb="select"] > div,
+section[data-testid="stSidebar"] [data-baseweb="input"] > div {{
+    background-color:var(--sw-panel) !important;
+    color:var(--sw-text) !important;
+    border-color:var(--sw-border) !important;
+}}
+section[data-testid="stSidebar"] [data-baseweb="select"] input,
+section[data-testid="stSidebar"] [data-baseweb="select"] span,
+section[data-testid="stSidebar"] [data-baseweb="select"] svg {{
+    color:var(--sw-text) !important;
+}}
+/* Dataframe buttonbars, table frames and legend elements keep readable contrast. */
+[data-testid="stDataFrame"] button {{color:var(--sw-text) !important;}}
+[data-testid="stCaptionContainer"] {{color:var(--sw-muted) !important;}}
+
 @media(max-width:980px) {{ .grid {{ grid-template-columns:repeat(2,minmax(0,1fr)); }} .m .v {{ font-size:21px; }} }}
 @media(max-width:560px) {{ .grid {{ grid-template-columns:1fr; }} h1.t {{ font-size:21px; }} }}
 </style>""", unsafe_allow_html=True)
