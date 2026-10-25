@@ -1,0 +1,20 @@
+# Smart Water Decision Support — Streamlit native DARK theme.
+# These settings style native DataFrame grids, expanders, buttons and selectboxes.
+# CSS alone cannot reliably recolor Streamlit's internally-rendered data grid.
+[theme]
+base = "dark"
+primaryColor = "#ff4b58"
+backgroundColor = "#090e19"
+secondaryBackgroundColor = "#161f31"
+textColor = "#f0f5ff"
+borderColor = "#263854"
+dataframeBorderColor = "#263854"
+dataframeHeaderBackgroundColor = "#101a2b"
+dataframeHeaderTextColor = "#a4b0c3"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#161f31"
+secondaryBackgroundColor = "#101a2b"
+textColor = "#f0f5ff"
+primaryColor = "#ff4b58"
