@@ -297,9 +297,27 @@ section("Peta unit layanan California", HELP["map"], "◉")
 locations = load_locations()
 locations = locations[locations["sid"].isin(sup.index)]
 if not locations.empty:
-    mapobj = folium.Map(location=[36.6, -119.4], zoom_start=6,
-                        tiles="CartoDB dark_matter" if DARK else "CartoDB positron",
-                        control_scale=True, prefer_canvas=True)
+    CARTO_API_KEY = st.secrets["CARTO_API_KEY"]
+
+map_style = "dark_all" if DARK else "light_all"
+
+mapobj = folium.Map(
+    location=[36.6, -119.4],
+    zoom_start=6,
+    tiles=None,
+    control_scale=True,
+    prefer_canvas=True
+)
+
+folium.TileLayer(
+    tiles=(
+        f"https://basemaps.cartocdn.com/{map_style}/"
+        f"{{z}}/{{x}}/{{y}}.png?key={CARTO_API_KEY}"
+    ),
+    attr="© OpenStreetMap contributors © CARTO",
+    name="CARTO Basemap",
+    max_zoom=20
+).add_to(mapobj)
     marks = MarkerCluster(name="Supplier (referensi county)",
                           options={"spiderfyOnMaxZoom": True, "showCoverageOnHover": False,
                                    "zoomToBoundsOnClick": True, "maxClusterRadius": 45})
