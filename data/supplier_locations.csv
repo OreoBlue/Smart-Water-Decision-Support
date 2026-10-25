@@ -1,0 +1,405 @@
+name,sid,county,county_primary,lat,lon,location_type,source
+Alameda County Water District,CA0110001,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Livermore,CA0110003,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Hayward,CA0110006,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Livermore,CA0110011,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Pleasanton,CA0110008,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Dublin San Ramon Services District,CA0110009,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+East Bay Municipal Utility District,CA0110005,ALAMEDA,ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Francisco Public Utilities Commission,"CA0110012,CA0110018,CA3810011","ALAMEDA,SAN FRANCISCO",ALAMEDA,37.6505880,-121.9178012,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Amador Water Agency,"CA0310002,CA0310003,CA0310012,CA0310019,CA0310021",AMADOR,AMADOR,38.4466174,-120.6516693,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Chico District,"CA0410002,CA1110002","BUTTE,GLENN",BUTTE,39.6665788,-121.6007017,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Oroville,CA0410005,BUTTE,BUTTE,39.6665788,-121.6007017,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Del Oro Water Company,CA0410011,BUTTE,BUTTE,39.6665788,-121.6007017,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Paradise Irrigation District,CA0410007,BUTTE,BUTTE,39.6665788,-121.6007017,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+South Feather Water and Power,"CA0410006,CA0410012",BUTTE,BUTTE,39.6665788,-121.6007017,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Thermalito Water and Sewer District,CA0410008,BUTTE,BUTTE,39.6665788,-121.6007017,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Calaveras County Water District,"CA0510004,CA0510005,CA0510006,CA0510016,CA0510017,CA0510019",CALAVERAS,CALAVERAS,38.2044678,-120.5546688,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Antioch,CA0710001,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Brentwood,CA0710004,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Martinez,CA0710006,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Pittsburg,CA0710008,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Contra Costa Water District,CA0710003,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Diablo Water District,CA0710007,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Discovery Bay Community Services District,CA0710009,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Bay Point,CA0710002,CONTRA COSTA,CONTRA COSTA,37.9235490,-121.9509501,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Crescent City,CA0810001,DEL NORTE,DEL NORTE,41.7447258,-123.9576538,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+El Dorado Irrigation District,"CA0910001,CA0910017,CA0910018",EL DORADO,EL DORADO,38.7789267,-120.5250447,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Georgetown Divide Public Utility District,CA0910013,EL DORADO,EL DORADO,38.7789267,-120.5250447,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+South Tahoe Public Utility District,CA0910002,EL DORADO,EL DORADO,38.7789267,-120.5250447,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Tahoe City Public Utilities District,"CA0910012,CA3100029,CA3110010,CA3110011,CA3110013,CA3110043,CA3110044","EL DORADO,PLACER",EL DORADO,38.7789267,-120.5250447,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Bakman Water Company,CA1010001,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Selma,CA1010024,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Clovis,CA1010003,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Coalinga,CA1010004,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Fresno,CA1010007,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Kerman,CA1010018,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Kingsburg,CA1010019,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Reedley,CA1010027,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Sanger,CA1010029,FRESNO,FRESNO,36.7585359,-119.6533783,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Arcata,"CA1210001,CA1210021",HUMBOLDT,HUMBOLDT,40.7028685,-123.9163169,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Eureka,CA1210004,HUMBOLDT,HUMBOLDT,40.7028685,-123.9163169,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Fortuna,CA1210006,HUMBOLDT,HUMBOLDT,40.7028685,-123.9163169,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Humboldt Community Services District,CA1210009,HUMBOLDT,HUMBOLDT,40.7028685,-123.9163169,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+McKinleyville Community Services District,CA1210016,HUMBOLDT,HUMBOLDT,40.7028685,-123.9163169,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Brawley,CA1310001,IMPERIAL,IMPERIAL,33.0398253,-115.3653350,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Calexico,CA1310002,IMPERIAL,IMPERIAL,33.0398253,-115.3653350,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of El Centro,CA1310004,IMPERIAL,IMPERIAL,33.0398253,-115.3653350,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Imperial,CA1310006,IMPERIAL,IMPERIAL,33.0398253,-115.3653350,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Arvin Community Service District,CA1510001,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Bear Valley Community Services District,CA1510038,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California City,CA1510032,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Bakersfield,"CA1510003,CA1510055",KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Kern River Valley,"CA1500407,CA1510026,CA1510033,CA1510039,CA1510043,CA1510049,CA1510056",KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Bakersfield,CA1510031,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Delano,CA1510005,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Shafter,CA1510019,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Tehachapi,CA1510020,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Wasco,CA1510021,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+East Niles Community Services District,CA1510006,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Greenfield County Water District,CA1510024,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Indian Wells Valley Water District,CA1510017,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Lamont Public Utility District,CA1510012,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Oildale Mutual Water Company,CA1510015,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rosamond Community Service District,CA1510018,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Vaughn Water Company,CA1510029,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+West Kern Water District,CA1510022,KERN,KERN,35.3434608,-118.7290727,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Corcoran,CA1610004,KINGS,KINGS,36.0749511,-119.8158311,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Hanford,CA1610003,KINGS,KINGS,36.0749511,-119.8158311,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lemoore,CA1610005,KINGS,KINGS,36.0749511,-119.8158311,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Susanville,CA1810001,LASSEN,LASSEN,40.6727255,-120.5932399,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Azusa Light and Water,CA1910007,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Bellflower - Somerset Mutual Water Company,CA1910013,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California American Water Company - Los Angeles Division,"CA1910052,CA1910139,CA1910186",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Dominguez,CA1910033,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company East Los Angeles,CA1910036,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Hermosa/Redondo,CA1910134,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Palos Verdes,CA1910104,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Alhambra,CA1910001,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Arcadia,CA1910003,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Beverly Hills,CA1910156,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Burbank,CA1910179,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Cerritos,CA1910019,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Compton,CA1910026,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Covina,CA1910127,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Downey,CA1910034,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of El Monte,CA1910038,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of El Segundo,CA1910040,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Glendale,CA1910043,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Glendora,CA1910044,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Hawthorne,CA1910047,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Huntington Park,CA1910049,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Inglewood,CA1910051,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of La Verne,CA1910062,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lakewood,CA1910239,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lomita,CA1910073,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Long Beach,CA1910065,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lynwood,CA1910079,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Manhattan Beach,CA1910083,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Monrovia,CA1910090,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Monterey Park,CA1910092,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Norwalk,CA1910191,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Paramount,CA1910105,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Pasadena,CA1910124,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Pico Rivera,CA1910042,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Pomona,CA1910126,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Fernando,CA1910143,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Fe Springs,CA1910245,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Monica,CA1910146,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Sierra Madre,CA1910148,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Signal Hill,CA1910149,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of South Gate,CA1910152,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of South Pasadena,CA1910154,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Torrance,CA1910213,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Vernon,CA1910167,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Whittier,CA1910173,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Crescenta Valley Community Water District,CA1910028,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Artesia,CA1910004,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Bell-Bell Gardens,CA1910011,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Claremont,CA1910024,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Culver City,CA1910030,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Florence Graham,CA1910077,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Norwalk,CA1910098,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - San Dimas,CA1910142,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - South Arcadia,CA1910212,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - South San Gabriel,CA1910223,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Southwest,CA1910155,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Las Virgenes Municipal Water District,CA1910225,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Liberty Utilities (Park Water) Corp,"CA1910021,CA1910161,CA1910211",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Lincoln Avenue Water Company,CA1910063,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Los Angeles City Department of Water And Power,CA1910067,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Los Angeles County Waterworks District 29 - Malibu & Marina Del Rey,CA1910204,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Los Angeles County Waterworks District 40 - Antelope Valley,"CA1910005,CA1910025,CA1910027,CA1910070,CA1910203",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Montebello Land And Water Company,CA1910091,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Orchard Dale Water District,CA1910101,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Palmdale Water District,CA1910102,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Pico Water District,CA1910125,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Quartz Hill Water District,CA1910130,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rowland Water District,CA1910194,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rubio Canyon Land And Water Association,CA1910140,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Gabriel County Water District,CA1910144,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Gabriel Valley Water Company,"CA1910039,CA1910189",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Santa Clarita Valley Water Agency,"CA1910017,CA1910096,CA1910240,CA1910247,CA1910250,CA1910255",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Suburban Water Systems - San Jose Hills,"CA1910046,CA1910200,CA1910205",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Suburban Water Systems - Whittier/La Mirada,"CA1910059,CA1910174",LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Sunny Slope Water Company,CA1910157,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Valley County Water District,CA1910009,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Valley Water Company,CA1910166,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Walnut Valley Water District,CA1910234,LOS ANGELES,LOS ANGELES,34.1959609,-118.2618084,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Chowchilla,CA2010001,MADERA,MADERA,37.2178687,-119.7647055,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Madera,CA2010002,MADERA,MADERA,37.2178687,-119.7647055,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Marin Municipal Water District,CA2110002,MARIN,MARIN,38.0551455,-122.7485790,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+North Marin Water District,CA2110003,MARIN,MARIN,38.0551455,-122.7485790,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Ukiah,CA2310003,MENDOCINO,MENDOCINO,39.4322266,-123.4313218,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Atwater,CA2410001,MERCED,MERCED,37.1916878,-120.7184261,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Livingston,CA2410004,MERCED,MERCED,37.1916878,-120.7184261,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Los Banos,CA2410005,MERCED,MERCED,37.1916878,-120.7184261,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Merced,CA2410009,MERCED,MERCED,37.1916878,-120.7184261,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Mammoth Community Water District,CA2610001,MONO,MONO,37.9384382,-118.8839316,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Alco Water Service,CA2710001,MONTEREY,MONTEREY,36.2394845,-121.3066668,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California American Water Company - Monterey District,"CA2701202,CA2701257,CA2702004,CA2710004,CA2710006,CA2710021,CA2710022",MONTEREY,MONTEREY,36.2394845,-121.3066668,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Salinas District,"CA2701929,CA2710010,CA2710012,CA2710013,CA2710019",MONTEREY,MONTEREY,36.2394845,-121.3066668,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Greenfield,CA2710008,MONTEREY,MONTEREY,36.2394845,-121.3066668,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Soledad,CA2710011,MONTEREY,MONTEREY,36.2394845,-121.3066668,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Marina Coast Water District,CA2710017,MONTEREY,MONTEREY,36.2394845,-121.3066668,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of American Canyon,CA2810005,NAPA,NAPA,38.5066747,-122.3304818,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Napa,CA2810003,NAPA,NAPA,38.5066747,-122.3304818,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Nevada Irrigation District,"CA2910004,CA2910006,CA2910014,CA2910023,CA3110026,CA5810005","NEVADA,PLACER,YUBA",NEVADA,39.3017137,-120.7695353,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Truckee - Donner Public Utilities District,CA2910003,NEVADA,NEVADA,39.3017137,-120.7695353,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Anaheim,CA3010001,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Brea,CA3010002,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Buena Park,CA3010003,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Fountain Valley,CA3010069,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Fullerton,CA3010010,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Garden Grove,CA3010062,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Huntington Beach,CA3010053,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of La Habra,CA3010018,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of La Palma,CA3010100,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Newport Beach,CA3010023,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Orange,CA3010027,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Clemente,CA3010036,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Ana,CA3010038,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Seal Beach,CA3010041,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Tustin,CA3010046,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Westminster,CA3010064,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+El Toro Water District,CA3010079,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Placentia,CA3010035,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - West Orange,CA3010022,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Irvine Ranch Water District,CA3010092,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Laguna Beach County Water District,CA3010017,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Mesa Water District,CA3010004,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Moulton Niguel Water District,CA3010073,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Santa Margarita Water District,"CA3010101,CA3010030",ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+South Coast Water District,CA3010042,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Trabuco Canyon Water District,CA3010094,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Yorba Linda Water District,CA3010037,ORANGE,ORANGE,33.6768290,-117.7765477,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California American Water Company - Sacramento District,"CA3110150,CA3410010,CA3410012,CA3410013,CA3410017,CA3410031,CA3410045,CA3410047,CA5700712,CA3410023","PLACER,SACRAMENTO,YOLO",PLACER,39.0638566,-120.7190211,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lincoln,CA3110004,PLACER,PLACER,39.0638566,-120.7190211,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Roseville,CA3110008,PLACER,PLACER,39.0638566,-120.7190211,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+North Tahoe Public Utilities District,"CA3110001,CA3110023,CA3110036",PLACER,PLACER,39.0638566,-120.7190211,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Placer County Water Agency,"CA3110005,CA3110006,CA3110024,CA3110025,CA3110040,CA3110050,CA3110124",PLACER,PLACER,39.0638566,-120.7190211,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Beaumont - Cherry Valley Water District,CA3310002,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Banning,CA3310006,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Blythe,CA3310003,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Coachella,CA3310007,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Corona,CA3310037,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Hemet,CA3310016,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Indio,CA3310020,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Norco,CA3310025,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Riverside,CA3310031,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Jacinto,CA3310032,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Coachella Valley Water District,"CA3310001,CA3310048",RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Desert Water Agency,CA3310005,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Eastern Municipal Water District,CA3310009,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Elsinore Valley Municipal Water District,CA3310012,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Jurupa Community Service District,CA3310021,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Lake Hemet Municipal Water District,CA3310022,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Mission Springs Water District,"CA3310008,CA3310078,CA3310081",RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Myoma Dunes Mutual Water Company,CA3310051,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rancho California Water District,CA3310038,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rubidoux Community Service District,CA3310044,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Temescal Valley Water District,CA3310074,RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Western Municipal Water District of Riverside,"CA3310036,CA3310049,CA3310076",RIVERSIDE,RIVERSIDE,33.7464012,-115.9938747,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Carmichael Water District,CA3410004,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Citrus Heights Water District,CA3410006,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Folsom,"CA3410014,CA3410030",SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Galt,CA3410011,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Sacramento,CA3410020,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Elk Grove Water District,CA3410008,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Fair Oaks Water District,CA3410009,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Cordova,CA3410015,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Orangevale Water Company,CA3410016,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rio Linda - Elverta Community Water District,CA3410018,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Sacramento County Water Agency,"CA3400101,CA3400106,CA3400156,CA3410002,CA3410029,CA3410704",SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Sacramento Suburban Water District,CA3410001,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Juan Water District,CA3410021,SACRAMENTO,SACRAMENTO,38.4490616,-121.3445182,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Hollister,CA3510001,SAN BENITO,SAN BENITO,36.6055225,-121.0740910,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Sunnyslope County Water District,CA3510003,SAN BENITO,SAN BENITO,36.6055225,-121.0740910,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Apple Valley Ranchos Water Company,CA3610003,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Big Bear Community Services District,CA3610008,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Adelanto,CA3610001,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Big Bear Lake,"CA3600283,CA3610022,CA3610044",SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Chino,CA3610012,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Chino Hills,CA3610036,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Colton,CA3610014,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Loma Linda,CA3610013,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Ontario,CA3610034,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Redlands,CA3610037,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Rialto,CA3610038,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Bernardino,CA3610039,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Upland,CA3610050,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Crestline Village Water District,CA3610015,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Cucamonga Valley Water District,CA3610018,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+East Valley Water District,CA3610064,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Barstow,CA3610043,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Hesperia Water District,CA3610024,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Hi Desert Water District,CA3610073,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Joshua Basin Water District,CA3610025,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Lake Arrowhead Community Services District,CA3610005,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Monte Vista Water District,CA3610029,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Phelan Pinon Hills Community Services District,CA3610120,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Riverside Highland Water Company,CA3610057,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Running Springs Water District,CA3610062,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Bernardino County Service Area 64 Spring Valley Lake,CA3610121,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Bernardino County Service Area 70 J Oak Hills,CA3610125,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Gabriel Valley Water Company Fontana Division,CA3610041,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Twentynine Palms Water District,CA3610049,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Victorville Water District,CA3610052,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+West Valley Water District,CA3610004,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Yucaipa Valley Water District,CA3610055,SAN BERNARDINO,SAN BERNARDINO,34.8417910,-116.1767210,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California American Water Company - San Diego District,CA3710001,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Carlsbad Municipal Water District,CA3710005,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Escondido,CA3710006,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Oceanside,CA3710014,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Poway,CA3710015,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Diego,CA3710020,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Fallbrook Public Utility District,CA3710008,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Helix Water District,CA3710010,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Lakeside Water District,CA3710013,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Olivenhain Municipal Water District,CA3710029,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Otay Water District,CA3710034,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Padre Dam Municipal Water District,CA3710037,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rainbow Municipal Water District,CA3710016,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Ramona Municipal Water District,CA3710019,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Rincon Del Diablo Municipal Water District,"CA3710018,CA3710044",SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Dieguito Water District,CA3710021,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Santa Fe Irrigation District,CA3710023,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Sweetwater Authority,CA3710025,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Vallecitos Water District,CA3710002,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Valley Center Municipal Water District,CA3710026,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Vista Irrigation District,CA3710027,SAN DIEGO,SAN DIEGO,33.0281014,-116.7698832,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Stockton,CA3910001,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lathrop,CA3910015,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lodi,CA3910004,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Manteca,CA3910005,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Ripon,CA3910007,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Stockton,CA3910012,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Tracy,CA3910011,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Mountain House Community Services District,CA3910027,SAN JOAQUIN,SAN JOAQUIN,37.9344424,-121.2716616,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Atascadero Mutual Water Company,CA4010002,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Cambria Community Service District,CA4010014,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Arroyo Grande,CA4010001,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Grover Beach,CA4010004,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Morro Bay,CA4010011,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Paso Robles,CA4010007,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Pismo Beach,CA4010008,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Luis Obispo,CA4010009,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Nipomo Community Service District,CA4010026,SAN LUIS OBISPO,SAN LUIS OBISPO,35.3875380,-120.4507526,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Bear Gulch,CA4110006,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Mid Peninsula,"CA4110007,CA4110008",SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company South San Francisco,CA4110009,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Burlingame,CA4110003,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of East Palo Alto,CA4110024,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Menlo Park,CA4110017,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Millbrae,CA4110018,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Bruno,CA4110023,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Coastside County Water District,CA4110011,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Daly City,CA4110013,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Estero Municipal Improvement District,CA4110021,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Hillsborough Town of,CA4110016,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Mid-Peninsula Water District,CA4110001,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+North Coast County Water District,CA4110025,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Redwood City,CA4110022,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Westborough Water District,CA4110027,SAN MATEO,SAN MATEO,37.4359118,-122.3555738,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Carpinteria Valley Water District,CA4210001,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lompoc,CA4210006,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Barbara,CA4210010,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Maria,CA4210011,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Orcutt,CA4210016,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Goleta Water District,CA4210004,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Montecito Water District,CA4210007,SANTA BARBARA,SANTA BARBARA,34.5373413,-120.0303010,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Los Altos/Suburban,CA4310001,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Gilroy,CA4310004,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Milpitas,CA4310005,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Morgan Hill,CA4310006,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Mountain View,CA4310007,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Palo Alto,CA4310009,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of San Jose,"CA4310019,CA4310020",SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Clara,CA4310012,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Sunnyvale,CA4310014,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Great Oaks Water Company Incorporated,CA4310022,SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Jose Water Company,"CA4310011,CA4310018",SANTA CLARA,SANTA CLARA,37.2324363,-121.6958367,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Cruz,CA4410010,SANTA CRUZ,SANTA CRUZ,37.0215909,-122.0095723,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Watsonville,CA4410011,SANTA CRUZ,SANTA CRUZ,37.0215909,-122.0095723,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+San Lorenzo Valley Water District,"CA4410002,CA4410014",SANTA CRUZ,SANTA CRUZ,37.0215909,-122.0095723,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Scotts Valley Water District,CA4410013,SANTA CRUZ,SANTA CRUZ,37.0215909,-122.0095723,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Soquel Creek Water District,CA4410017,SANTA CRUZ,SANTA CRUZ,37.0215909,-122.0095723,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Bella Vista Water District,CA4510014,SHASTA,SHASTA,40.7637404,-122.0413776,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Anderson,CA4510001,SHASTA,SHASTA,40.7637404,-122.0413776,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Redding,CA4510005,SHASTA,SHASTA,40.7637404,-122.0413776,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Shasta Lake,CA4510006,SHASTA,SHASTA,40.7637404,-122.0413776,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Yreka,CA4710011,SISKIYOU,SISKIYOU,41.5935223,-122.5403889,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Dixon,CA4810002,SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Benicia,CA4810001,SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Fairfield,CA4810003,SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Rio Vista,CA4810004,SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Vacaville,CA4810008,SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Vallejo,"CA4810007,CA4810021",SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Suisun - Solano Water Authority,CA4810005,SOLANO,SOLANO,38.2668083,-121.9401809,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Cloverdale,CA4910002,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Healdsburg,CA4910005,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Petaluma,CA4910006,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Rohnert Park,CA4910014,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Rosa,CA4910009,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Sonoma,CA4910012,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Sweetwater Springs Water District,"CA4910004,CA4910028",SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Valley of The Moon Water District,CA4910013,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Windsor Town of,CA4910017,SONOMA,SONOMA,38.5252678,-122.9218758,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Ceres,CA5010028,STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Modesto,"CA5010005,CA5010010,CA5010023,CA5010029,CA5010031,CA5010033,CA5010034,CA5010035",STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Newman,CA5010013,STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Oakdale,CA5010014,STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Patterson,CA5010017,STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Riverbank,CA5010018,STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Turlock,CA5010019,STANISLAUS,STANISLAUS,37.5589488,-120.9984907,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Yuba City,CA5110002,SUTTER,SUTTER,39.0342823,-121.6945303,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Red Bluff,CA5210004,TEHAMA,TEHAMA,40.1261134,-122.2345116,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Visalia,"CA5400935,CA5410016,CA5410041",TULARE,TULARE,36.2200256,-118.8003656,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Dinuba,CA5410002,TULARE,TULARE,36.2200256,-118.8003656,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Exeter,CA5410003,TULARE,TULARE,36.2200256,-118.8003656,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Lindsay,CA5410006,TULARE,TULARE,36.2200256,-118.8003656,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Porterville,CA5410010,TULARE,TULARE,36.2200256,-118.8003656,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Tulare,CA5410015,TULARE,TULARE,36.2200256,-118.8003656,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Groveland Community Services District,CA5510009,TUOLUMNE,TUOLUMNE,38.0276622,-119.9549382,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Tuolumne Utilities District,"CA5500363,CA5510001,CA5510002,CA5510003,CA5510012,CA5510013,CA5510015,CA5510021,CA5510025,CA5510028,CA5510033",TUOLUMNE,TUOLUMNE,38.0276622,-119.9549382,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California American Water Company - Ventura District,"CA5610040,CA5610081",VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Westlake,CA5610016,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Camrosa Water District,CA5610063,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Casitas Municipal Water District,"CA5610014,CA5610024",VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of (Ventura) San Buenaventura,CA5610017,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Camarillo,CA5610019,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Fillmore,CA5610002,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Oxnard,CA5610007,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Port Hueneme,CA5610009,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Santa Paula,CA5610011,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Thousand Oaks,CA5610020,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Golden State Water Company - Simi Valley,CA5610059,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Triunfo Sanitation District/Oak Park Water Service,CA5610043,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Ventura County Waterworks District No 01 - Moorpark,CA5610018,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Ventura County Waterworks District No 08 - Simi Valley,CA5610023,VENTURA,VENTURA,34.3557887,-119.1265206,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Davis,CA5710001,YOLO,YOLO,38.6865644,-121.9005620,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of West Sacramento,CA5710003,YOLO,YOLO,38.6865644,-121.9005620,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+City of Woodland,CA5710006,YOLO,YOLO,38.6865644,-121.9005620,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+California Water Service Company Marysville,CA5810001,YUBA,YUBA,39.2687622,-121.3517986,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Linda County Water District,CA5810002,YUBA,YUBA,39.2687622,-121.3517986,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026
+Olivehurst Public Utilities District,"CA5805001,CA5810003",YUBA,YUBA,39.2687622,-121.3517986,county_centroid_proxy,US Census TIGERweb ACS26 county centroid 2026

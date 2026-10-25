@@ -1,5 +1,8 @@
 streamlit>=1.40
 pandas>=2.0
 numpy
-scikit-learn>=1.4
+scikit-learn==1.9.0
 joblib
+altair>=5.0
+folium>=0.17
+streamlit-folium>=0.22
